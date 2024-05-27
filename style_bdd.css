@@ -1,0 +1,64 @@
+/* Base styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #333333;
+    color: #fff;
+}
+
+/* Container styling */
+.container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; 
+}
+
+th, td {
+    padding: 12px;
+    border: none;
+}
+
+th {
+    background-color: #9c66ea;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+/* Styles for the retour button */
+.btn-retour {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #9c66ea;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.btn-retour:hover {
+    background-color: #8646df;
+}
+
+.btn-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
